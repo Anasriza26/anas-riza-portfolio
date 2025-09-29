@@ -22,7 +22,7 @@ const pageVariants: Variants = {
     y: 0,
     transition: {
       duration: 0.6,
-      ease: easeOut, // ✅ Typed easing
+      ease: easeOut,
     },
   },
   out: {
@@ -30,7 +30,7 @@ const pageVariants: Variants = {
     y: -20,
     transition: {
       duration: 0.4,
-      ease: easeIn, // ✅ Typed easing
+      ease: easeIn,
     },
   },
 };
@@ -55,7 +55,7 @@ const sectionVariants: Variants = {
     y: 0,
     transition: {
       duration: 0.7,
-      ease: easeOut, // ✅ Typed easing
+      ease: easeOut,
     },
   },
 };
