@@ -38,7 +38,7 @@ export function Header() {
       }`}
     >
       <div className="max-w-6xl mx-auto">
-        <div className="flex items-center justify-between h-16 px-2">
+        <div className="flex items-center justify-between h-16 ml-3 lg:ml-0">
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="block">
