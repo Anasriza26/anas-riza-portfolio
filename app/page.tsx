@@ -79,7 +79,7 @@ export default function Home() {
         animate="in"
         exit="out"
         variants={pageVariants}
-        className="min-h-screen bg-background"
+        className="bg-background overflow-hidden"
       >
         <Header />
 
