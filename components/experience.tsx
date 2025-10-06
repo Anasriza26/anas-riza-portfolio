@@ -29,7 +29,6 @@ export function Experience() {
     },
   ];
 
-  // Variants
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
@@ -45,7 +44,7 @@ export function Experience() {
       y: 0,
       transition: {
         duration: 0.6,
-        ease: "easeOut" as const, // cast to satisfy TS
+        ease: "easeOut" as const,
       },
     },
   };
@@ -57,7 +56,7 @@ export function Experience() {
       x: 0,
       transition: {
         duration: 0.7,
-        ease: "easeOut" as const, // cast to satisfy TS
+        ease: "easeOut" as const,
       },
     },
   };

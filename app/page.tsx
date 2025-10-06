@@ -11,7 +11,7 @@ import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
 import { motion, AnimatePresence, Variants, easeIn, easeOut, easeInOut } from "framer-motion";
 
-// Page transition variants (typed)
+// transition variants (typed)
 const pageVariants: Variants = {
   initial: {
     opacity: 0,
@@ -84,7 +84,7 @@ export default function Home() {
         <Header />
 
         <motion.div variants={containerVariants} initial="hidden" animate="visible">
-          {/* Hero Section - Immediate impact */}
+          {/*Hero Section*/}
           <motion.section
             variants={{
               hidden: { opacity: 0 },
@@ -119,12 +119,12 @@ export default function Home() {
           ))}
         </motion.div>
 
-        {/* Footer with separate animation */}
+        {/*Footer*/}
         <motion.section
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.5, delay: 0.2, ease: easeInOut }} // ✅ Typed easing
+          transition={{ duration: 0.5, delay: 0.2, ease: easeInOut }}
         >
           <Footer />
         </motion.section>

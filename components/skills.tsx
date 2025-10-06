@@ -46,7 +46,6 @@ export function Skills() {
     },
   ];
 
-  // Variants typed as Variants
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
@@ -63,7 +62,7 @@ export function Skills() {
       rotateX: 0,
       transition: {
         duration: 0.7,
-        ease: "easeOut", // Changed from array to string for TypeScript safety
+        ease: "easeOut",
       },
     },
   };

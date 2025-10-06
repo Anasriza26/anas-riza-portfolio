@@ -79,7 +79,7 @@ export function Education() {
       scale: 1,
       transition: {
         duration: 0.7,
-        ease: "easeOut", // Changed from array to string for TS compatibility
+        ease: "easeOut",
       },
     },
   });

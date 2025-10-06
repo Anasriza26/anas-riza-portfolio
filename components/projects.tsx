@@ -55,7 +55,7 @@ export function Projects() {
       scale: 1,
       transition: {
         duration: 0.6,
-        ease: "easeOut" as const, // fix TypeScript error
+        ease: "easeOut" as const,
       },
     },
   };

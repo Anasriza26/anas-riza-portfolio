@@ -36,7 +36,6 @@ export function About() {
     },
   ];
 
-  // Explicitly type variants to satisfy TypeScript
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
@@ -54,7 +53,7 @@ export function About() {
       y: 0,
       transition: {
         duration: 0.6,
-        ease: "easeOut" as const, // cast to const to satisfy TypeScript
+        ease: "easeOut" as const,
       },
     },
   };
