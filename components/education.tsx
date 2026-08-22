@@ -13,12 +13,12 @@ export function Education() {
 
   const education = [
     {
-      period: new Date().getFullYear().toString(),
+      period:"2026",
       degree: "BSc (Hons) Software Engineering",
       institution: "Esoft Metro Campus",
       location: "Bambalapitiya, Sri Lanka",
-      type: "In Progress",
-      status: "current",
+      type: "Completed",
+      status: "Completed",
     },
     {
       period: "2025",
@@ -26,7 +26,7 @@ export function Education() {
       institution: "Esoft Metro Campus",
       location: "Bambalapitiya, Sri Lanka",
       type: "Completed",
-      status: "completed",
+      status: "Completed",
     },
     {
       period: "2022",
@@ -34,7 +34,7 @@ export function Education() {
       institution: "Zahira College Puttalam",
       location: "Puttalam, Sri Lanka",
       type: "Secondary Education",
-      status: "completed",
+      status: "Completed",
     },
     {
       period: "2019",
@@ -42,16 +42,16 @@ export function Education() {
       institution: "Zahira College Puttalam",
       location: "Puttalam, Sri Lanka",
       type: "Secondary Education",
-      status: "completed",
+      status: "Completed",
     },
   ];
 
   const certifications = [
-    {
-      title: "Higher National Diploma (HND) in Computing",
-      issuer: "Esoft Metro Campus",
-      type: "Academic Qualification",
-    },
+    // {
+    //   title: "Higher National Diploma (HND) in Computing",
+    //   issuer: "Esoft Metro Campus",
+    //   type: "Academic Qualification",
+    // },
     {
       title: "English Speaking and Listening Short Course",
       issuer: "Open University, Puttalam",

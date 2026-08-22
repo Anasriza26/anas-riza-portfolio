@@ -75,7 +75,7 @@ export function Hero() {
                   <Sparkles className="h-6 w-6 text-accent" />
                 </motion.div>
                 <span className="text-sm font-medium text-accent uppercase tracking-wider">
-                  Frontend Developer
+                  Software Engineer
                 </span>
               </motion.div>
 
@@ -96,9 +96,9 @@ export function Hero() {
                 transition={{ duration: 0.6, delay: 0.4 }}
                 className="text-xl sm:text-2xl font-medium text-center sm:text-left"
               >
-                <span className="text-muted-foreground">Junior </span>
+                <span className="text-muted-foreground">Full Stack </span>
                 <span className="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent font-semibold">
-                  Frontend Developer
+                  Developer
                 </span>
               </motion.h2>
 
@@ -108,13 +108,15 @@ export function Hero() {
                 transition={{ duration: 0.6, delay: 0.6 }}
                 className="text-lg text-muted-foreground leading-relaxed text-pretty max-w-2xl text-center sm:text-left"
               >
-                I build responsive, user-friendly web applications using modern
-                frontend technologies like
+                I build responsive, full-stack web and mobile applications using
                 <span className="text-accent font-medium"> Next.js</span>,
-                <span className="text-accent font-medium"> React</span>, and
-                <span className="text-accent font-medium"> TypeScript</span>.
-                Currently pursuing BSc Software Engineering with hands-on
-                internship experience.
+                <span className="text-accent font-medium"> React</span>,
+                <span className="text-accent font-medium"> React Native</span>, and
+                <span className="text-accent font-medium"> Node.js</span>.
+                A BEng (Hons) Software Engineering graduate with six months of
+                hands-on experience as a Frontend Developer Intern, bringing a fast
+                learning curve and genuine curiosity for new technologies to every
+                project.
               </motion.p>
             </div>
 
@@ -155,7 +157,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 1 }}
               className="flex flex-wrap gap-6 text-sm justify-center sm:justify-start"
             >
-              {[{ icon: MapPin, text: "Puttalam, Sri Lanka" }, { icon: Phone, text: "+94 754121698" }, { icon: Mail, text: "rizanas0526rz@gmail.com" }].map((item, index) => (
+              {[{ icon: MapPin, text: "Puttalam, Sri Lanka" }, { icon: Phone, text: "+94 75 412 1698" }, { icon: Mail, text: "rizanas0526rz@gmail.com" }].map((item, index) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, x: -20 }}

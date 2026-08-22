@@ -14,35 +14,44 @@ export function Skills() {
     {
       title: "Frontend Development",
       skills: [
+        "React.js",
         "Next.js",
-        "React",
-        "JavaScript",
-        "TypeScript",
+        "HTML5",
+        "CSS3",
         "Tailwind CSS",
-        "Shadcn-ui",
+        "Shadcn UI",
       ],
     },
     {
-      title: "Tools & Technologies",
-      skills: ["Git", "GitHub", "Figma", "Responsive Web Design"],
+      title: "Backend & APIs",
+      skills: ["Node.js", "Express.js", "REST API Design", "JSON", "CRUD Operations"],
     },
     {
-      title: "Backend Knowledge",
-      skills: ["Node.js", "PgAdmin", "Basic Backend"],
+      title: "Mobile Development",
+      skills: ["React Native", "Expo"],
     },
     {
-      title: "Core Competencies",
-      skills: [
-        "Problem-Solving",
-        "Team Collaboration",
-        "Adaptability",
-        "Continuous Learning",
-        "Communication Skills",
-      ],
+      title: "Databases & Auth",
+      skills: ["PostgreSQL", "MongoDB", "Firebase Firestore", "Supabase", "JWT"],
     },
     {
       title: "Languages",
-      skills: ["English", "Sinhala", "Tamil"],
+      skills: ["JavaScript (ES6+)", "TypeScript", "Python"],
+    },
+    {
+      title: "Tools & Platforms",
+      skills: ["Git", "GitHub", "VS Code", "Android Studio", "Postman", "pgAdmin", "Figma"],
+    },
+    {
+      title: "Core Strengths",
+      skills: [
+        "Problem-Solving",
+        "Analytical Thinking",
+        "Team Collaboration",
+        "Adaptability",
+        "Communication",
+        "Self-Motivation",
+      ],
     },
   ];
 

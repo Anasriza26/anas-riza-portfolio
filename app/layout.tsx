@@ -12,14 +12,17 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Anas Mohammed Riza - Junior Frontend Developer",
+  title: "Anas Mohammed Riza - Software Engineer | Full Stack Developer",
   description:
-    "Portfolio of Anas Mohammed Riza, a passionate Junior Frontend Developer specializing in React, Next.js, and modern web technologies.",
+    "Portfolio of Anas Mohammed Riza, a Software Engineer and Full Stack Developer specializing in React, Next.js, React Native, Node.js, and modern web and mobile technologies.",
   authors: [{ name: "Anas Mohammed Riza" }],
   keywords: [
-    "frontend developer",
+    "software engineer",
+    "full stack developer",
     "react",
     "next.js",
+    "react native",
+    "node.js",
     "portfolio",
     "web developer",
   ],

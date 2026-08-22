@@ -1,6 +1,6 @@
 "use client";
 
-import { Code, Palette, Users, Zap } from "lucide-react";
+import { Code, Smartphone, Users, Zap } from "lucide-react";
 import { motion, Variants } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
@@ -12,27 +12,27 @@ export function About() {
   const highlights = [
     {
       icon: Code,
-      title: "Frontend Development",
+      title: "Full Stack Development",
       description:
-        "Specialized in Next.js, React, TypeScript, and modern web technologies",
+        "Building end-to-end apps with Next.js, React, Node.js, Express, and TypeScript",
     },
     {
-      icon: Palette,
-      title: "UI/UX Design",
+      icon: Smartphone,
+      title: "Mobile Development",
       description:
-        "Creating intuitive and visually appealing user interfaces with Figma",
+        "Crafting cross-platform mobile apps with React Native, Expo, and Firebase",
     },
     {
       icon: Users,
       title: "Team Collaboration",
       description:
-        "Experience working with senior developers in agile development teams",
+        "Comfortable working alongside designers and senior developers in agile teams",
     },
     {
       icon: Zap,
       title: "Performance Focus",
       description:
-        "Optimizing web applications for speed, accessibility, and user experience",
+        "Optimizing applications for speed, accessibility, and a smooth user experience",
     },
   ];
 
@@ -99,35 +99,37 @@ export function About() {
                 variants={containerVariants}
               >
                 <motion.p variants={itemVariants}>
-                  Motivated and detail-oriented junior frontend developer with a
-                  strong foundation in web development and user interface
-                  design. Completed an HND in Computing, gained practical
-                  experience as a frontend development intern, and currently
-                  pursuing a BSc in Software Engineering.
+                  I'm a Software Engineer with a BEng (Hons) in Software
+                  Engineering and a genuine love for building things that
+                  work well and feel good to use. What started as curiosity
+                  about how websites come together has grown into a full
+                  stack skill set spanning web, mobile, and backend
+                  development.
                 </motion.p>
 
                 <motion.p variants={itemVariants}>
-                  Passionate about creating responsive, user-friendly
-                  applications using modern technologies like{" "}
+                  I enjoy turning ideas into real, working products using{" "}
                   <span className="text-accent font-medium">Next.js</span>,{" "}
                   <span className="text-accent font-medium">React</span>,{" "}
-                  <span className="text-accent font-medium">TypeScript</span>,
+                  <span className="text-accent font-medium">React Native</span>,{" "}
                   and{" "}
-                  <span className="text-accent font-medium">Tailwind CSS</span>.
-                  Experienced in UI/UX design with Figma and committed to
-                  delivering engaging web experiences that meet modern web
-                  standards and accessibility guidelines.
+                  <span className="text-accent font-medium">Node.js</span>,
+                  backed by databases like PostgreSQL, MongoDB, and Firebase.
+                  From e-commerce sites to booking platforms and mobile apps,
+                  I like owning a project from the first line of code to the
+                  final deploy.
                 </motion.p>
 
                 <motion.p variants={itemVariants}>
-                  My recent internship experience at{" "}
-                  <span className="text-accent font-medium">FocalDive</span>{" "}
-                  involved building responsive web applications, collaborating
-                  with senior developers to improve UI/UX design, optimizing
-                  performance, and implementing new features based on client
-                  requirements. I'm eager to contribute to collaborative
-                  development teams and continue growing in the field of
-                  frontend development.
+                  During my six months as a Frontend Developer Intern at{" "}
+                  <span className="text-accent font-medium">FocalDive</span>,
+                  I got to build production-facing interfaces, turn designs
+                  into clean reusable components, and work closely with
+                  senior developers who taught me a lot about writing code
+                  that other people can actually maintain. That experience
+                  sharpened my eye for detail and gave me a real appreciation
+                  for good collaboration — and I'm always looking for the
+                  next challenge to learn from.
                 </motion.p>
               </motion.div>
             </motion.div>
