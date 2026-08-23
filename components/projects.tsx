@@ -28,7 +28,7 @@ export function Projects() {
         "Shadcn UI",
       ],
       category: "Live Project",
-      year: "2025",
+      year: "2026",
       liveUrl: "https://noir-etude.vercel.app",
     },
     {
@@ -43,7 +43,7 @@ export function Projects() {
         "Tailwind CSS",
       ],
       category: "Live Project",
-      year: "2025",
+      year: "2026",
       liveUrl: "https://city-timber.vercel.app",
     },
     {
