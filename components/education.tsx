@@ -14,8 +14,8 @@ export function Education() {
   const education = [
     {
       period:"2026",
-      degree: "BSc (Hons) Software Engineering",
-      institution: "Esoft Metro Campus",
+      degree: "Bachelor of Engineering with First Class Honours in Software Engineering",
+      institution: "Esoft University",
       location: "Bambalapitiya, Sri Lanka",
       type: "Completed",
       status: "Completed",
@@ -23,7 +23,7 @@ export function Education() {
     {
       period: "2025",
       degree: "Higher National Diploma (HND) in Computing",
-      institution: "Esoft Metro Campus",
+      institution: "Esoft University",
       location: "Bambalapitiya, Sri Lanka",
       type: "Completed",
       status: "Completed",

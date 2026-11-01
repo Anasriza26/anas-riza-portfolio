@@ -113,7 +113,7 @@ export function Hero() {
                 <span className="text-accent font-medium"> React</span>,
                 <span className="text-accent font-medium"> React Native</span>, and
                 <span className="text-accent font-medium"> Node.js</span>.
-                A BEng (Hons) Software Engineering graduate with six months of
+                A BEng Software Engineering graduate with six months of
                 hands-on experience as a Frontend Developer Intern, bringing a fast
                 learning curve and genuine curiosity for new technologies to every
                 project.
@@ -213,7 +213,7 @@ export function Hero() {
             {/* Social Links */}
             <motion.div className="flex gap-8 md:mt-2">
               {[
-                { href: "https://web.facebook.com/rizariz.rizariz.52/", icon: Facebook, label: "Facebook" },
+                { href: "https://www.facebook.com/share/1C4iLJw5ec/", icon: Facebook, label: "Facebook" },
                 { href: "https://www.instagram.com/r26.5z?igsh=d3B5bXdkOW1hc2Ju", icon: Instagram, label: "Instagram" },
               ].map((social, index) => (
                 <motion.div
