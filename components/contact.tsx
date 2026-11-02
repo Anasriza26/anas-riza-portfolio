@@ -78,13 +78,13 @@ export function Contact() {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com",
+      href: "https://github.com/Anasriza26",
       description: "Check out my code repositories",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/anasriza/",
       description: "Connect with me professionally",
     },
     {
