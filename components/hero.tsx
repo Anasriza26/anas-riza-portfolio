@@ -90,33 +90,28 @@ export function Hero() {
                 </span>
               </motion.h1>
 
-              <motion.h2
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.4 }}
-                className="text-xl sm:text-2xl font-medium text-center sm:text-left"
-              >
-                <span className="text-muted-foreground">Full Stack </span>
-                <span className="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent font-semibold">
-                  Developer
-                </span>
-              </motion.h2>
-
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.6 }}
                 className="text-lg text-muted-foreground leading-relaxed text-pretty max-w-2xl text-center sm:text-left"
               >
-                I build responsive, full-stack web and mobile applications using
-                <span className="text-accent font-medium"> Next.js</span>,
-                <span className="text-accent font-medium"> React</span>,
-                <span className="text-accent font-medium"> React Native</span>, and
-                <span className="text-accent font-medium"> Node.js</span>.
-                A BEng Software Engineering graduate with six months of
-                hands-on experience as a Frontend Developer Intern, bringing a fast
-                learning curve and genuine curiosity for new technologies to every
-                project.
+                A{" "}
+                <span className="text-accent font-medium">
+                  First Class Honours
+                </span>{" "}
+                Software Engineering graduate from London Metropolitan
+                University with six months of professional experience as a
+                Frontend Developer Intern at FocalDive. I develop modern web,
+                mobile, and desktop applications using{" "}
+                <span className="text-accent font-medium">React.js</span>,{" "}
+                <span className="text-accent font-medium">Next.js</span>,{" "}
+                <span className="text-accent font-medium">TypeScript</span>,{" "}
+                <span className="text-accent font-medium">Node.js</span>,{" "}
+                <span className="text-accent font-medium">React Native</span>,
+                and <span className="text-accent font-medium">C# / .NET</span>.
+                Passionate about building reliable, maintainable, and
+                user-focused software solutions.
               </motion.p>
             </div>
 
@@ -128,7 +123,9 @@ export function Hero() {
               className="flex flex-wrap gap-4 justify-center sm:justify-start"
             >
               <Button
-                onClick={() => handleDownload("/AnasRizaCv.pdf", "Anas Riza CV")}
+                onClick={() =>
+                  handleDownload("/AnasRizaCv.pdf", "Anas Riza CV")
+                }
                 variant="outline"
                 size="lg"
                 className="flex items-center gap-2 bg-gradient-to-r from-accent/10 to-primary/10 hover:from-accent/20 hover:to-primary/20 border-accent/30 hover:border-accent/50 transition-all duration-300 cursor-pointer"
@@ -139,7 +136,10 @@ export function Hero() {
 
               <Button
                 onClick={() =>
-                  handleDownload("/AnasRizaCoverLetter.pdf", "Anas Riza Cover Letter")
+                  handleDownload(
+                    "/AnasRizaCoverLetter.pdf",
+                    "Anas Riza Cover Letter",
+                  )
                 }
                 variant="outline"
                 size="lg"
@@ -157,7 +157,11 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 1 }}
               className="flex flex-wrap gap-6 text-sm justify-center sm:justify-start"
             >
-              {[{ icon: MapPin, text: "Puttalam, Sri Lanka" }, { icon: Phone, text: "+94 75 412 1698" }, { icon: Mail, text: "rizanas0526rz@gmail.com" }].map((item, index) => (
+              {[
+                { icon: MapPin, text: "Colombo, Sri Lanka" },
+                { icon: Phone, text: "+94 75 412 1698" },
+                { icon: Mail, text: "rizanas0526rz@gmail.com" },
+              ].map((item, index) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, x: -20 }}
@@ -213,14 +217,27 @@ export function Hero() {
             {/* Social Links */}
             <motion.div className="flex gap-8 md:mt-2">
               {[
-                { href: "https://www.facebook.com/share/1C4iLJw5ec/", icon: Facebook, label: "Facebook" },
-                { href: "https://www.instagram.com/r26.5z?igsh=d3B5bXdkOW1hc2Ju", icon: Instagram, label: "Instagram" },
+                {
+                  href: "https://www.facebook.com/share/1C4iLJw5ec/",
+                  icon: Facebook,
+                  label: "Facebook",
+                },
+                {
+                  href: "https://www.instagram.com/r26.5z?igsh=d3B5bXdkOW1hc2Ju",
+                  icon: Instagram,
+                  label: "Instagram",
+                },
               ].map((social, index) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, scale: 0 }}
                   animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.5, delay: 1 + index * 0.1, type: "spring", stiffness: 200 }}
+                  transition={{
+                    duration: 0.5,
+                    delay: 1 + index * 0.1,
+                    type: "spring",
+                    stiffness: 200,
+                  }}
                   whileHover={{ scale: 1.2, rotate: 5 }}
                   whileTap={{ scale: 0.9 }}
                 >
@@ -230,7 +247,11 @@ export function Hero() {
                     asChild
                     className="hover:bg-accent/10 hover:text-accent transition-all duration-300 cursor-pointer"
                   >
-                    <a href={social.href} target="_blank" rel="noopener noreferrer">
+                    <a
+                      href={social.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <social.icon className="h-6 w-6" />
                       <span className="sr-only">{social.label}</span>
                     </a>

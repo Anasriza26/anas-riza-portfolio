@@ -17,90 +17,166 @@ export function Projects() {
 
   const projects = [
     {
-      title: "Noir Etude - Luxury Fashion E-Commerce",
+      title: "AI Gym Planner - AI-Powered Fitness Application",
       description:
-        "A polished, modern shopping experience built with reusable React/Next.js components. Optimized layouts and load performance across desktop, tablet, and mobile, then shipped to production on Vercel.",
+        "Developed a full-stack fitness application featuring secure user authentication, email OTP verification, and fitness profile management. Integrated Google's Gemini AI to generate personalized workout plans, with features for saving plans and tracking workout history.",
       technologies: [
         "Next.js",
-        "React.js",
         "TypeScript",
         "Tailwind CSS",
-        "Shadcn UI",
+        "Neon PostgreSQL",
+        "Auth.js",
+        "Gemini AI",
+        "Resend",
       ],
-      category: "Live Project",
+      category: "Full Stack / AI",
       year: "2026",
-      liveUrl: "https://noir-etude.vercel.app",
+      links: [
+        {
+          label: "Live URL",
+          url: "https://ai-gym-planner-app.netlify.app/",
+        },
+        {
+          label: "GitHub",
+          url: "https://github.com/Anasriza26/ai-gym-planner.git",
+        },
+      ],
     },
     {
-      title: "City Timber - Business Website",
+      title: "Mine Estate - Real Estate Mobile Application",
       description:
-        "A modern, responsive business site for a timber and construction materials company, complete with cinematic GSAP page-load transitions, scroll-triggered reveals, and smooth mobile navigation.",
+        "Built a cross-platform real estate application using React Native and Expo, featuring property listings, search and filtering, saved favourites, and multi-image uploads. Implemented Clerk authentication, protected routes, and Supabase Row Level Security to secure user-owned listings and data.",
       technologies: [
-        "Next.js",
-        "React.js",
+        "React Native",
+        "Expo",
         "TypeScript",
-        "GSAP",
-        "Tailwind CSS",
+        "Expo Router",
+        "NativeWind",
+        "Zustand",
+        "Supabase",
+        "Clerk",
       ],
-      category: "Live Project",
+      category: "Mobile Application",
       year: "2026",
-      liveUrl: "https://city-timber.vercel.app",
+      links: [
+        {
+          label: "APK Download",
+          url: "https://github.com/Anasriza26/estate-app/releases/download/v1.1.0/MineEstate-v1.1.0.apk",
+        },
+      ],
     },
     {
-      title: "Book My Play - Turf Booking Platform",
+      title: "Inventory Management System - Desktop Application",
       description:
-        "Contributed frontend features to a nationwide sports turf booking platform, building reusable UI components within a scalable architecture alongside a team of designers and developers.",
+        "Developed a Windows desktop inventory management system with user authentication, role-based access control, product and customer management, order processing, and invoice generation. Implemented SQL transactions for reliable stock management, BCrypt password hashing, sales reporting, and database backup functionality.",
+      technologies: [
+        "C#",
+        ".NET",
+        "Windows Forms",
+        "SQL Server",
+        "T-SQL",
+        "ADO.NET",
+        "BCrypt",
+      ],
+      category: "Desktop Application",
+      year: "2026",
+      links: [
+        {
+          label: "Live URL",
+          url: "https://lnkd.in/p/gQ29ey-D",
+        },
+      ],
+    },
+    {
+      title: "Notes API - RESTful Backend Service",
+      description:
+        "Developed a RESTful backend service using Node.js and Express.js, providing complete CRUD operations and API health monitoring. Implemented request validation, parameterized SQL queries, centralized error handling, request logging, and environment-based configuration to improve API reliability and security.",
+      technologies: [
+        "Node.js",
+        "Express.js",
+        "Express 5",
+        "MySQL",
+        "REST API",
+        "dotenv",
+      ],
+      category: "Backend Development",
+      year: "2026",
+      links: [
+        {
+          label: "GitHub",
+          url: "https://github.com/Anasriza26/notes-api",
+        },
+      ],
+    },
+    {
+      title: "ThinkBoard - Full-Stack MERN Notes Application",
+      description:
+        "Built a full-stack notes management application with complete CRUD functionality using Next.js, Node.js, Express.js, and MongoDB. Integrated Upstash Redis for sliding-window API rate limiting and developed responsive interfaces with loading, empty, and error states. Deployed the frontend and backend on Vercel with Git-based continuous deployment.",
       technologies: [
         "Next.js",
-        "Tailwind CSS",
-        "Shadcn UI",
-        "TypeScript",
-      ],
-      category: "Team Project",
-      year: "2025",
-    },
-    {
-      title: "Dreamy Hotel Reservation System",
-      description:
-        "A hotel reservation web app that simplifies the booking flow with an intuitive UI and reusable React components, backed by Firebase for real-time data handling.",
-      technologies: ["React.js", "Tailwind CSS", "Firebase"],
-      category: "Web Application",
-      year: "2025",
-    },
-    {
-      title: "Student Online Complaint Management System",
-      description:
-        "A full-stack complaint management system enabling secure issue tracking for educational institutions, with complete CRUD functionality and responsive interfaces integrated with RESTful APIs.",
-      technologies: [
         "React.js",
         "Node.js",
         "Express.js",
         "MongoDB",
-        "REST API",
+        "Mongoose",
+        "Tailwind CSS",
+        "Upstash Redis",
+        "Vercel",
       ],
-      category: "Full Stack",
-      year: "2025",
+      category: "Full Stack / MERN",
+      year: "2026",
+      links: [
+        {
+          label: "Live URL",
+          url: "https://riza-notes-app.vercel.app/",
+        },
+      ],
     },
     {
-      title: "Mobile Authentication App",
+      title: "Noir Étude - Luxury Fashion E-Commerce Website",
       description:
-        "A cross-platform mobile app securing user access with registration and login powered by Firebase Authentication and Firestore.",
+        "Designed and developed a responsive luxury fashion e-commerce website using Next.js and React.js. Focused on reusable components, modern interface design, and optimized layouts to deliver a consistent browsing experience across desktop, tablet, and mobile devices. Deployed the application on Vercel.",
       technologies: [
-        "React Native",
-        "Expo",
-        "Firebase Auth",
-        "Firestore",
+        "Next.js",
+        "React.js",
+        "TypeScript",
+        "Supabase",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Shadcn UI",
+        "Vercel",
       ],
-      category: "Mobile App",
-      year: "2024",
+      category: "E-Commerce Website",
+      year: "2026",
+      links: [
+        {
+          label: "Live URL",
+          url: "https://noir-etude.vercel.app/",
+        },
+      ],
     },
     {
-      title: "Mobile Todo Application",
+      title: "City Timber - Business Website",
       description:
-        "A task management app built for everyday use, with full CRUD functionality and a clean, responsive mobile UI.",
-      technologies: ["React Native", "Expo", "JavaScript"],
-      category: "Mobile App",
-      year: "2024",
+        "Designed and developed a modern, responsive business website for a timber and construction materials company. Presented company information, products, services, and contact details through a professional interface, enhanced with GSAP-powered page transitions, scroll-triggered animations, and interactive navigation.",
+      technologies: [
+        "Next.js",
+        "React.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Shadcn UI",
+        "GSAP",
+        "Lucide React",
+        "Vercel",
+      ],
+      category: "Business Website",
+      year: "2026",
+      links: [
+        {
+          label: "Live URL",
+          url: "https://city-timber.vercel.app/",
+        },
+      ],
     },
   ];
 
@@ -149,11 +225,7 @@ export function Projects() {
           {/* Title Section */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
-            animate={
-              isInView
-                ? { opacity: 1, y: 0 }
-                : { opacity: 0, y: 30 }
-            }
+            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
             transition={{ duration: 0.6 }}
             className="space-y-4 text-center"
           >
@@ -174,8 +246,9 @@ export function Projects() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-muted-foreground max-w-xl mx-auto"
             >
-              A mix of web, mobile, and full-stack builds, some shipped to
-              production, others built to sharpen specific skills.
+              A selection of web, mobile, backend, and desktop applications
+              showcasing my experience in building practical software solutions
+              using modern technologies.
             </motion.p>
           </motion.div>
 
@@ -237,11 +310,7 @@ export function Projects() {
 
                           <motion.span
                             initial={{ opacity: 0 }}
-                            animate={
-                              isInView
-                                ? { opacity: 1 }
-                                : { opacity: 0 }
-                            }
+                            animate={isInView ? { opacity: 1 } : { opacity: 0 }}
                             transition={{
                               duration: 0.5,
                               delay: 0.5 + index * 0.1,
@@ -274,11 +343,7 @@ export function Projects() {
                     <CardContent className="space-y-4 flex flex-col flex-1">
                       <motion.p
                         initial={{ opacity: 0 }}
-                        animate={
-                          isInView
-                            ? { opacity: 1 }
-                            : { opacity: 0 }
-                        }
+                        animate={isInView ? { opacity: 1 } : { opacity: 0 }}
                         transition={{
                           duration: 0.5,
                           delay: 0.6 + index * 0.1,
@@ -336,18 +401,15 @@ export function Projects() {
                               stiffness: 400,
                             }}
                           >
-                            <Badge
-                              variant="secondary"
-                              className="text-xs"
-                            >
+                            <Badge variant="secondary" className="text-xs">
                               {tech}
                             </Badge>
                           </motion.div>
                         ))}
                       </motion.div>
 
-                      {/* Show button only when a live project URL exists */}
-                      {project.liveUrl && (
+                      {/* Project Links */}
+                      {project.links.length > 0 && (
                         <motion.div
                           initial={{ opacity: 0, y: 10 }}
                           animate={
@@ -359,23 +421,26 @@ export function Projects() {
                             duration: 0.5,
                             delay: 0.8 + index * 0.1,
                           }}
-                          className="pt-2 mt-auto"
+                          className="pt-2 mt-auto flex flex-wrap gap-2"
                         >
-                          <Button
-                            asChild
-                            variant="outline"
-                            size="sm"
-                            className="w-full gap-2 border-accent/30 hover:border-accent/60 hover:bg-accent/10 hover:text-accent transition-all duration-300 cursor-pointer"
-                          >
-                            <a
-                              href={project.liveUrl}
-                              target="_blank"
-                              rel="noopener noreferrer"
+                          {project.links.map((link) => (
+                            <Button
+                              key={link.label}
+                              asChild
+                              variant="outline"
+                              size="sm"
+                              className="flex-1 gap-2 border-accent/30 hover:border-accent/60 hover:bg-accent/10 hover:text-accent transition-all duration-300 cursor-pointer"
                             >
-                              <ExternalLink className="h-4 w-4" />
-                              View Project
-                            </a>
-                          </Button>
+                              <a
+                                href={link.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                <ExternalLink className="h-4 w-4" />
+                                {link.label}
+                              </a>
+                            </Button>
+                          ))}
                         </motion.div>
                       )}
                     </CardContent>

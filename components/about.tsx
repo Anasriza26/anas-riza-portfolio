@@ -12,27 +12,27 @@ export function About() {
   const highlights = [
     {
       icon: Code,
-      title: "Full Stack Development",
+      title: "Application Development",
       description:
-        "Building end-to-end apps with Next.js, React, Node.js, Express, and TypeScript",
+        "Building web, mobile, and desktop applications with React, Next.js, Node.js, React Native, C#, and .NET.",
     },
     {
       icon: Smartphone,
       title: "Mobile Development",
       description:
-        "Crafting cross-platform mobile apps with React Native, Expo, and Firebase",
+        "Building cross-platform mobile applications with React Native, Expo, Supabase, and TypeScript.",
     },
     {
       icon: Users,
       title: "Team Collaboration",
       description:
-        "Comfortable working alongside designers and senior developers in agile teams",
+        "Experienced in Agile workflows, Git, code reviews, and collaborating with development teams.",
     },
     {
       icon: Zap,
-      title: "Performance Focus",
+      title: "Reliable Solutions",
       description:
-        "Optimizing applications for speed, accessibility, and a smooth user experience",
+        "Focused on clean code, responsive interfaces, application security, and maintainable software.",
     },
   ];
 
@@ -99,37 +99,41 @@ export function About() {
                 variants={containerVariants}
               >
                 <motion.p variants={itemVariants}>
-                  I'm a Software Engineer with a BEng (Hons) in Software
-                  Engineering and a genuine love for building things that
-                  work well and feel good to use. What started as curiosity
-                  about how websites come together has grown into a full
-                  stack skill set spanning web, mobile, and backend
-                  development.
+                  I'm a Software Engineer with a First Class Honours degree in
+                  Software Engineering from London Metropolitan University. I
+                  specialize in developing modern web and mobile applications,
+                  with a strong interest in building practical, reliable, and
+                  user-focused software solutions.
                 </motion.p>
 
                 <motion.p variants={itemVariants}>
-                  I enjoy turning ideas into real, working products using{" "}
-                  <span className="text-accent font-medium">Next.js</span>,{" "}
+                  My experience spans web, mobile, and desktop application
+                  development using{" "}
                   <span className="text-accent font-medium">React</span>,{" "}
-                  <span className="text-accent font-medium">React Native</span>,{" "}
-                  and{" "}
-                  <span className="text-accent font-medium">Node.js</span>,
-                  backed by databases like PostgreSQL, MongoDB, and Firebase.
-                  From e-commerce sites to booking platforms and mobile apps,
-                  I like owning a project from the first line of code to the
-                  final deploy.
+                  <span className="text-accent font-medium">Next.js</span>,{" "}
+                  <span className="text-accent font-medium">Node.js</span>,{" "}
+                  <span className="text-accent font-medium">React Native</span>,
+                  and <span className="text-accent font-medium">C# / .NET</span>
+                  . I've also worked with REST APIs, PostgreSQL, MongoDB, MySQL,
+                  and SQL Server, building applications ranging from responsive
+                  websites and mobile apps to Windows Forms desktop systems.
                 </motion.p>
 
                 <motion.p variants={itemVariants}>
-                  During my six months as a Frontend Developer Intern at{" "}
-                  <span className="text-accent font-medium">FocalDive</span>,
-                  I got to build production-facing interfaces, turn designs
-                  into clean reusable components, and work closely with
-                  senior developers who taught me a lot about writing code
-                  that other people can actually maintain. That experience
-                  sharpened my eye for detail and gave me a real appreciation
-                  for good collaboration — and I'm always looking for the
-                  next challenge to learn from.
+                  During my six-month Frontend Developer Internship at{" "}
+                  <span className="text-accent font-medium">FocalDive</span>, I
+                  contributed to{" "}
+                  <a
+                    href="https://bookmyplay.lk"
+                    className="text-accent font-medium hover:underline"
+                  >
+                    BookMyPlay.lk
+                  </a>
+                  , a production turf-booking platform. I developed responsive
+                  interfaces, reusable components, integrated APIs, and
+                  collaborated with the development team using Git and Agile
+                  practices. I'm continuously improving my skills and looking
+                  forward to contributing to meaningful software projects.
                 </motion.p>
               </motion.div>
             </motion.div>
