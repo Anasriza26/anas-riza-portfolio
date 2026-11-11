@@ -61,7 +61,7 @@ export function Projects() {
       links: [
         {
           label: "APK Download",
-          url: "https://github.com/Anasriza26/estate-app/releases/download/v1.1.0/MineEstate-v1.1.0.apk",
+          url: "https://drive.google.com/file/d/1ahF0goi2VkQMUctVW5KzmvcQ2sq10NXR/view?usp=sharing",
         },
       ],
     },
